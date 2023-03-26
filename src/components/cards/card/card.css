@@ -1,0 +1,33 @@
+
+ul.item{
+    display: block;
+    width: 330px;
+    list-style: none;
+    text-transform: capitalize;
+    border: 10px solid rgb(68, 22, 22);
+    margin: 10px auto;
+    padding: 0 10px;
+
+    font-size: 25px;
+}
+li.item__img{
+    display: block;
+    height: 200px;
+    background-image: url(../../img/person-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.item__btn{
+    display: inline-block;
+    width: 130px;
+    height: fit-content;
+    background-color: rgb(95, 95, 250);
+    border-radius: 5px;
+    margin-bottom: 5px;
+    text-transform: none;
+}
+.item__link{
+    text-decoration: none;
+    color: black;
+}
